@@ -19,39 +19,31 @@ const ConversationHistoryPage = () => {
         setSelectedRating(event.target.value);
     }
 
-    // Function to load all session IDs from localStorage
     const loadSessionIds = () => {
         const allKeys = Object.keys(localStorage);
         const sessionKeys = [];
 
-        // Filter out the session keys that start with 'session-'
         allKeys.forEach((key) => {
             sessionKeys.push(key);
         });
 
-        // Update the session ID list
         setSessionIdList(sessionKeys);
     };
 
     useEffect(() => {
-        // Load session IDs initially
         loadSessionIds();
 
-        // Set up a listener for storage events (for changes in other tabs)
         const handleStorageChange = () => {
             loadSessionIds();
         };
 
-        // Listen to 'storage' event and update sessionIdList when localStorage changes
         window.addEventListener('storage', handleStorageChange);
 
-        // Clean up the event listener on unmount
         return () => {
             window.removeEventListener('storage', handleStorageChange);
         };
     }, []);
 
-    // Filter sessions based on the selected rating
     const filteredSessionList = sessionIdList.filter((sessionKey) => {
         const sessionData = JSON.parse(localStorage.getItem(sessionKey));
         return sessionData && sessionData.some(item => item.rating === Number(selectedRating));

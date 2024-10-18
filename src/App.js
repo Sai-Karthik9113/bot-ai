@@ -10,7 +10,7 @@ function App() {
   return (
     <AppProvider>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         <Route path='/past-conversations' element={<ConversationHistoryPage />} />
       </Routes>
     </AppProvider>

@@ -3,7 +3,7 @@ import styles from './SearchBar.module.css';
 import Button from "../Button/Button";
 import aiResponse from '../../sample.json';
 
-const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId, setSessionIdList }) => {
+const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId }) => {
     const [inputBox, setInputBox] = useState('');
 
     const handleInputChange = (event) => {
