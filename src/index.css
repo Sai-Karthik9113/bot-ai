@@ -1,0 +1,31 @@
+:root {
+  --primary-background-color: linear-gradient(180deg, rgba(215, 199, 244, 0.2) 0%, rgba(151, 133, 186, 0.2) 100%);
+  --secondary-background-color: rgba(255, 255, 255, 1);
+  --primary-bg-color-mobile: linear-gradient(180deg, #F9FAFA 59%, #EDE4FF 100%);
+
+  --primary-border-color: rgba(0, 0, 0, 0.45);
+
+  --chat-card-bg: rgba(215, 199, 244, 0.13);
+  --conversation-historyCard-bg: linear-gradient(90deg, #BFACE2 0%, #D7C7F4 100%);
+
+  --pale-violet: rgba(215, 199, 244, 1);
+  --muted-lavender: rgba(151, 133, 186, 1);
+  --lavender-white: rgba(250, 247, 255, 1);
+
+  --charcoal-gray: rgba(65, 65, 70, 1);
+
+  --primary-font-family: 'Ubuntu', sans-serif;
+  --secondary-font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--primary-font-family);
+}

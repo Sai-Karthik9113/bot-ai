@@ -1,0 +1,14 @@
+.botAiButtons {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    background-color: var(--pale-violet);
+    color: #000000;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

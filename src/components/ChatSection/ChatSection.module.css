@@ -1,0 +1,71 @@
+.defaultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.defaultCards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--secondary-background-color);
+    border-radius: 5px;
+    height: 7.5rem;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.defaultCards h3 {
+    font-size: clamp(16px, 1.5vw, 20px);
+    font-weight: 700;
+    padding: 16px 16px 0;
+}
+.defaultCards p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: var(--secondary-font-family);
+    font-size: clamp(12px, 1vw, 16px);
+    padding: 0 16px;
+}
+
+.defaultView, .chatbotGeeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.defaultView {
+    height: 100%;
+    padding-top: 10%;
+}
+.chatbotGeeting {
+    text-align: center;
+}
+
+.chatView {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 15%;
+}
+
+
+@media (min-width: 320px) {
+    .defaultContainer {
+        gap: 15px;
+    }
+    .defaultCards {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .defaultCards {
+        width: 46.5%;
+        text-align: left;
+    }
+}

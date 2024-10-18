@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+    .botName {
+        background-color: #ffffff;
+    }
+}
+
+@media (min-width: 900px) {
+    .botName {
+        background-color: rgb(247, 243, 255);
+    }
+}

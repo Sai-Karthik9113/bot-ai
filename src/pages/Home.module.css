@@ -1,0 +1,19 @@
+
+
+@media (min-width: 320px) {
+    .chatContainer {
+        min-height: 100vh;
+        height: fit-content;
+        background: var(--primary-bg-color-mobile);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 600px) {
+    .chatContainer {
+        height: max-content;
+        background: var(--primary-background-color);
+    }
+}
