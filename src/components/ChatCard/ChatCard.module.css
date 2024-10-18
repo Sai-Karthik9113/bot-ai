@@ -29,6 +29,12 @@
     max-width: 90%;
 }
 
+.feedbackContainer {
+    display: flex;
+    gap: 0.5rem;
+    padding-right: 2%;
+}
+
 @media (min-width: 768px) {
     .modalContainer {
         width: 75%;

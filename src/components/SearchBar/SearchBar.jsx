@@ -3,7 +3,7 @@ import styles from './SearchBar.module.css';
 import Button from "../Button/Button";
 import aiResponse from '../../sample.json';
 
-const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId }) => {
+const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId, setSessionIdList }) => {
     const [inputBox, setInputBox] = useState('');
 
     const handleInputChange = (event) => {
@@ -12,7 +12,7 @@ const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId }) => {
 
     const handleAskClick = () => {
         if (inputBox) {
-            const questionRaised = aiResponse.find(item => item.question === inputBox);
+            const questionRaised = aiResponse.find(item => item.question.replace(/\?$/, '').trim().toLowerCase() === inputBox.replace(/\?$/, '').trim().toLowerCase());
             setQuestion(inputBox);
             setAnswer(questionRaised ? questionRaised.response : `As an AI Language Model, I don't have the details`);
             setInputBox('');
@@ -20,7 +20,6 @@ const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId }) => {
     };
 
     const handleSaveClick = () => {
-        // Retrieve existing chat histories from localStorage
 
         localStorage.setItem(`${sessionId}`, JSON.stringify(chatHistory));
 

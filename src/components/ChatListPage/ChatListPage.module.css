@@ -1,0 +1,14 @@
+.sessionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.userCard, .botCard {
+    display: flex;
+    gap: 1.5rem;
+}
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

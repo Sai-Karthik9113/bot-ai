@@ -21,7 +21,7 @@ const ChatSection = ({ question, answer, chatHistory, setChatHistory, sessionId,
 
     useEffect(() => {
         if (chatHistory.length === 0) {
-            const initialSessionId = `session-${new Date().getTime()}`;
+            const initialSessionId = `session-${new Date().getDate()}-${new Date().getTime()}`;
             setSessionId(initialSessionId);
         }
     }, [chatHistory, setSessionId]);
@@ -51,7 +51,7 @@ const ChatSection = ({ question, answer, chatHistory, setChatHistory, sessionId,
     }, [question, answer, chatHistory, setChatHistory, timeNow]);
 
     const handleCardClick = (item) => {
-        setSessionId(`session-${new Date().getTime()}`);
+        setSessionId(`session-${new Date().getDate()}-${new Date().getTime()}`);
         const newChat = { question: item.question, answer: item.response, time: timeNow }; // Ensure time is stored properly
         setChatHistory(prev => [...prev, newChat]);
     };

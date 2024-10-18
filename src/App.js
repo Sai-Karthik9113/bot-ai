@@ -3,13 +3,17 @@ import './App.css';
 import { Routes, Route  } from 'react-router-dom';
 import Home from './pages/Home';
 import ConversationHistoryPage from './pages/PastConversations';
+import { AppProvider } from './Context';
 
 function App() {
+  
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/past-conversations' element={<ConversationHistoryPage />} />
-    </Routes>
+    <AppProvider>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/past-conversations' element={<ConversationHistoryPage />} />
+      </Routes>
+    </AppProvider>
   );
 }
 

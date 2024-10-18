@@ -8,7 +8,7 @@ import { LuThumbsUp } from "react-icons/lu";
 import { LuThumbsDown } from "react-icons/lu";
 import { TbBulb } from "react-icons/tb";
 
-const ChatCard = ({ cardData, currentTime, type, sessionId, chatIndex, chatHistory, setChatHistory }) => {
+const ChatCard = ({ cardData, currentTime, type, chatIndex, chatHistory, setChatHistory }) => {
     const [hovered, setHovered] = useState(false);
     const [feedbackModalOpen, setFeedbackModalOpen] = useState(false);
     const [ratingVisible, setRatingVisible] = useState(false);
@@ -100,7 +100,7 @@ const ChatCard = ({ cardData, currentTime, type, sessionId, chatIndex, chatHisto
                                 {cardData}
                             </Typography>
                         </div>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                             <Typography style={{ color: 'rgba(0, 0, 0, 0.62)', fontFamily: 'var(--secondary-font-family)', fontSize: '12px' }}>
                                 {currentTime}
                             </Typography>
