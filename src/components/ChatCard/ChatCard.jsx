@@ -164,7 +164,9 @@ const ChatCard = ({ cardData, currentTime, type, chatIndex, chatHistory, setChat
                                 value={feedbackData} // Bind textarea to feedback state
                                 style={{ width: '100%', marginBottom: '16px', resize: 'none', padding: '1rem', fontFamily: 'var(--secondary-font-family)', letterSpacing: '0.5px' }}
                             />
-                            <Button onClick={handleFeedbackSubmit}>Submit</Button>
+                            <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
+                                <Button onClick={handleFeedbackSubmit}>Submit</Button>
+                            </div>
                         </div>
                     </Modal>
                 </div>

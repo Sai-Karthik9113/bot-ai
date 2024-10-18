@@ -12,8 +12,9 @@ const SearchBox = ({ setQuestion, setAnswer, chatHistory, sessionId }) => {
 
     const handleAskClick = () => {
         if (inputBox) {
-            const questionRaised = aiResponse.find(item => item.question.replace(/\?$/, '').trim().toLowerCase() === inputBox.replace(/\?$/, '').trim().toLowerCase());
+            const questionRaised = aiResponse.find(item => item.question.replace(/[^a-zA-Z0-9\s]/g, "").trim().toLowerCase() === inputBox.replace(/[^a-zA-Z0-9\s]/g, "").trim().toLowerCase());
             setQuestion(inputBox);
+            
             setAnswer(questionRaised ? questionRaised.response : `As an AI Language Model, I don't have the details`);
             setInputBox('');
         }

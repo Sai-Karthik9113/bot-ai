@@ -152,7 +152,7 @@
     {
       "id": 31,
       "question": "What is the purpose of API testing?",
-      "response": "API testing focuses on verifying that APIs work as expected, perform efficiently, and are secure from external threats. It helps ensure that the interaction between different software components is error-free."
+      "response": "API testing focuses on verifying that APIs work as expected, perform efficiently, and are secure from external threats. It helps ensure that the question between different software components is error-free."
     },
     {
       "id": 32,
@@ -202,7 +202,7 @@
     {
       "id": 41,
       "question": "What is the importance of user experience (UX) design?",
-      "response": "UX design is crucial because it focuses on fulfilling the user's needs, providing positive experiences that keep users loyal to the product or brand. A good UX enhances the usability, accessibility, and efficiency of user interactions with the application."
+      "response": "UX design is crucial because it focuses on fulfilling the user's needs, providing positive experiences that keep users loyal to the product or brand. A good UX enhances the usability, accessibility, and efficiency of user questions with the application."
     },
     {
       "id": 42,
@@ -217,7 +217,7 @@
     {
       "id": 44,
       "question": "Can you explain the concept of domain-driven design?",
-      "response": "Domain-driven design is an approach to software development that centers on the business domain, its elements, and their interactions, aiming to create software models that solve real-world problems efficiently. It emphasizes collaboration between technical and domain experts to improve software design and functionality."
+      "response": "Domain-driven design is an approach to software development that centers on the business domain, its elements, and their questions, aiming to create software models that solve real-world problems efficiently. It emphasizes collaboration between technical and domain experts to improve software design and functionality."
     },
     {
       "id": 45,
@@ -248,5 +248,255 @@
       "id": 50,
       "question": "How do you stay updated with the latest technology trends?",
       "response": "Staying updated involves following industry news, participating in developer communities, attending conferences and workshops, taking online courses, reading technical blogs and publications, and experimenting with new technologies and tools."
+    },
+    {
+      "id": 51,
+      "question": "Hello!",
+      "response": "Hi there! How can I help you today?"
+    },
+    {
+      "id": 52,
+      "question": "Good morning!",
+      "response": "Good morning! Hope you have a great day ahead!"
+    },
+    {
+      "id": 53,
+      "question": "Good afternoon!",
+      "response": "Good afternoon! What’s on your mind?"
+    },
+    {
+      "id": 54,
+      "question": "Good evening!",
+      "response": "Good evening! How was your day?"
+    },
+    {
+      "id": 55,
+      "question": "How are you?",
+      "response": "I'm just a computer program, but thanks for asking! How about you?"
+    },
+    {
+      "id": 56,
+      "question": "What’s up?",
+      "response": "Not much! Just here to assist you. What can I do for you?"
+    },
+    {
+      "id": 57,
+      "question": "Nice to meet you!",
+      "response": "Nice to meet you too! How can I assist you today?"
+    },
+    {
+      "id": 58,
+      "question": "Hey there!",
+      "response": "Hey! How's it going?"
+    },
+    {
+      "id": 59,
+      "question": "Long time no see!",
+      "response": "It’s great to see you again! What’s new?"
+    },
+    {
+      "id": 60,
+      "question": "See you later!",
+      "response": "See you later! Have a good one!"
+    },
+    {
+      "id": 61,
+      "question": "What’s going on?",
+      "response": "Not much! Just here to chat. What’s up with you?"
+    },
+    {
+      "id": 62,
+      "question": "How’s your day?",
+      "response": "I don't have days like humans, but I’m ready to help you! How’s yours?"
+    },
+    {
+      "id": 63,
+      "question": "What can I do for you?",
+      "response": "That’s kind of you! I’m here to assist you. What do you need help with?"
+    },
+    {
+      "id": 64,
+      "question": "Have a great day!",
+      "response": "Thank you! You too! Enjoy your day!"
+    },
+    {
+      "id": 65,
+      "question": "How’s it going?",
+      "response": "Everything’s running smoothly! How can I help you today?"
+    },
+    {
+      "id": 66,
+      "question": "What’s new?",
+      "response": "I’m always learning! What’s new with you?"
+    },
+    {
+      "id": 67,
+      "question": "Glad to see you!",
+      "response": "Glad to be here! How can I assist you?"
+    },
+    {
+      "id": 68,
+      "question": "Let’s chat!",
+      "response": "Absolutely! What’s on your mind?"
+    },
+    {
+      "id": 69,
+      "question": "Catch you later!",
+      "response": "Catch you later! Feel free to return anytime!"
+    },
+    {
+      "id": 70,
+      "question": "What’s your name?",
+      "response": "I’m your friendly assistant! What can I call you?"
+    },
+    {
+      "id": 71,
+      "question": "How’s life treating you?",
+      "response": "Life is good on my end! How about you?"
+    },
+    {
+      "id": 72,
+      "question": "What’s your favorite color?",
+      "response": "I don't have preferences, but I love all the colors! What's yours?"
+    },
+    {
+      "id": 73,
+      "question": "How can I make your day better?",
+      "response": "Just chatting with you brightens my day! What can I do for you?"
+    },
+    {
+      "id": 74,
+      "question": "What are you up to?",
+      "response": "I’m here to assist you! What’s up with you?"
+    },
+    {
+      "id": 75,
+      "question": "Nice to meet you!",
+      "response": "Nice to meet you too! How can I help today?"
+    },
+    {
+      "id": 76,
+      "question": "What’s your favorite food?",
+      "response": "I don’t eat, but I’ve read a lot about delicious foods! What's yours?"
+    },
+    {
+      "id": 77,
+      "question": "What do you like to do?",
+      "response": "I love helping people like you! What about you?"
+    },
+    {
+      "id": 78,
+      "question": "Hope you’re having a good day!",
+      "response": "Thank you! I’m having a great time helping you. How’s your day?"
+    },
+    {
+      "id": 79,
+      "question": "What’s your purpose?",
+      "response": "My purpose is to assist you with anything you need!"
+    },
+    {
+      "id": 80,
+      "question": "How can I improve my day?",
+      "response": "Let’s find something fun or productive to do together!"
+    },
+    {
+      "id": 81,
+      "question": "What’s your hobby?",
+      "response": "I enjoy learning from our conversations! Do you have any hobbies?"
+    },
+    {
+      "id": 82,
+      "question": "Any plans for the weekend?",
+      "response": "I’ll be right here, ready to help you whenever you need!"
+    },
+    {
+      "id": 83,
+      "question": "How do you feel?",
+      "response": "I don’t have feelings, but I’m ready to assist you with anything!"
+    },
+    {
+      "id": 84,
+      "question": "What’s your favorite movie?",
+      "response": "I haven't watched any, but I can help you find a great one!"
+    },
+    {
+      "id": 85,
+      "question": "What inspires you?",
+      "response": "I’m inspired by helping people like you! What inspires you?"
+    },
+    {
+      "id": 86,
+      "question": "How's the weather?",
+      "response": "I can't feel the weather, but I can check it for you! What's it like?"
+    },
+    {
+      "id": 87,
+      "question": "What do you think about...?",
+      "response": "I'd love to hear your thoughts! What do you want to discuss?"
+    },
+    {
+      "id": 88,
+      "question": "Tell me a joke!",
+      "response": "Why did the computer go to therapy? Because it had too many bytes!"
+    },
+    {
+      "id": 89,
+      "question": "Do you have any advice?",
+      "response": "Always be curious and keep learning! What do you need advice on?"
+    },
+    {
+      "id": 90,
+      "question": "I’m feeling down.",
+      "response": "I’m here for you! Want to talk about what’s bothering you?"
+    },
+    {
+      "id": 91,
+      "question": "What’s your dream job?",
+      "response": "I’m already doing my dream job by helping you! What about you?"
+    },
+    {
+      "id": 92,
+      "question": "How do you stay motivated?",
+      "response": "I stay motivated by being here to assist you! What motivates you?"
+    },
+    {
+      "id": 93,
+      "question": "What’s your favorite thing about your job?",
+      "response": "My favorite thing is helping people with their questions! What do you love about your job?"
+    },
+    {
+      "id": 94,
+      "question": "How do you learn?",
+      "response": "I learn from our questions and the information available! What about you?"
+    },
+    {
+      "id": 95,
+      "question": "What’s something interesting you’ve learned?",
+      "response": "I find human creativity fascinating! What’s something interesting you've learned?"
+    },
+    {
+      "id": 96,
+      "question": "What do you think makes a good friend?",
+      "response": "A good friend is someone who listens and supports you. What qualities do you value in a friend?"
+    },
+    {
+      "id": 97,
+      "question": "What’s your favorite quote?",
+      "response": "I love quotes that inspire! What's a quote that resonates with you?"
+    },
+    {
+      "id": 98,
+      "question": "What’s your favorite way to relax?",
+      "response": "I relax by engaging in conversations! How do you like to unwind?"
+    },
+    {
+      "id": 99,
+      "question": "Do you believe in fate?",
+      "response": "I don't have beliefs, but I'm curious about your thoughts on fate!"
+    },
+    {
+      "id": 100,
+      "question": "What’s your favorite season?",
+      "response": "I don’t experience seasons, but I hear they can be beautiful! What's your favorite?"
     }
 ]
