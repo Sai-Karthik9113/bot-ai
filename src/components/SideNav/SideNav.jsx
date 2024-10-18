@@ -63,8 +63,8 @@ const SideNavbar = ({ setQuestion, setAnswer, setChatHistory }) => {
             </Toolbar>
             <List>
                 <ListItem disablePadding>
-                <ListItemButton onClick={navigateToPastConversations}>
-                    <Button style={{ borderRadius: '10px', color: 'var(--charcoal-gray)', fontSize: '16px', fontWeight: '700' }}>
+                <ListItemButton>
+                    <Button onClick={navigateToPastConversations} style={{ borderRadius: '10px', color: 'var(--charcoal-gray)', fontSize: '16px', fontWeight: '700' }}>
                         Past Conversations
                     </Button>
                 </ListItemButton>

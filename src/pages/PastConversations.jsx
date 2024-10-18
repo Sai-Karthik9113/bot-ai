@@ -24,11 +24,16 @@ const ConversationHistoryPage = () => {
         const sessionKeys = [];
 
         allKeys.forEach((key) => {
-            sessionKeys.push(key);
+            if (key.startsWith('session')) {
+                sessionKeys.push(key);
+            }
         });
 
         setSessionIdList(sessionKeys);
     };
+
+    console.log('Hello');
+    
 
     useEffect(() => {
         loadSessionIds();
@@ -45,9 +50,21 @@ const ConversationHistoryPage = () => {
     }, []);
 
     const filteredSessionList = sessionIdList.filter((sessionKey) => {
-        const sessionData = JSON.parse(localStorage.getItem(sessionKey));
-        return sessionData && sessionData.some(item => item.rating === Number(selectedRating));
+        const storedData = localStorage.getItem(sessionKey);
+        let sessionData = [];
+    
+        if (storedData) {
+            try {
+                sessionData = JSON.parse(storedData);
+            } catch (error) {
+                console.error(`Error parsing JSON for session key "${sessionKey}":`, error);
+                return false;
+            }
+        }
+
+        return Array.isArray(sessionData) && sessionData.some(item => item.rating === Number(selectedRating));
     });
+    
 
     return (
         <Box sx={{ display: 'flex' }}>
